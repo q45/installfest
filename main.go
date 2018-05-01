@@ -17,6 +17,7 @@ var (
 	delay   = flag.Duration("delay", 2*time.Second, "how long to wait")
 )
 
+//Entry Point for the program
 func main() {
 
 	flag.Parse()

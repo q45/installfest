@@ -3,25 +3,15 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(Factorial(8))
+	n := factorial(8)
+	fmt.Println(n)
 }
 
-func Factorial(num int) int {
+func factorial(x int) int {
 
-	var sum []int
-	// var factorial int
-
-	for i := num; i > 0; i-- {
-		fmt.Println(i)
-		sum = append(sum, i)
+	if x == 0 {
+		return 1
 	}
 
-	fmt.Println(sum)
-
-	// for _, f := range sum {
-
-	// }
-
-	return 0
-
+	return x * factorial(x-1)
 }
