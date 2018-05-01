@@ -11,6 +11,7 @@ import (
 
 const data = `d2VsY29tZSB0byB0aGUgZ29sZmluZyBtZWV0IHVw`
 
+//entry point for this app
 func main() {
 
 	var g web.Greeting

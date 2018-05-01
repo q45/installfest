@@ -10,6 +10,7 @@ import (
 
 const data = `d2VsY29tZSB0byB0aGUgZ29sZmluZyBtZWV0IHVw`
 
+//entry point for this app
 func main() {
 	var r io.Reader
 	r = strings.NewReader(data)
