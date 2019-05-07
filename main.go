@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/installfest/model"
-	"github.com/installfest/reading"
-	"github.com/installfest/web"
+	"github.com/q45/installfest/v2/web"
+	"github.com/q45/installfest/v3/model"
+	"github.com/q45/installfest/v3/reading"
 )
 
 const data = `d2VsY29tZSB0byB0aGUgZ29sZmluZyBtZWV0IHVw`
